@@ -35,15 +35,36 @@
   border: 4px solid #0f1b21;
   border-radius: 12px;
   cursor: pointer;
-}.board{
-    height: 600px;
-    width: 564px;
-    display: flex;
-    margin: auto;
-}.boxes img{
-    margin: 50px 50px;
-}.title img{
-    padding: 20px 20px;
-    margin-top:20px;
-    height: 50px;
+}
+.board {
+  height: 600px;
+  width: 564px;
+  display: flex;
+  margin: auto;
+}
+.boxes img {
+  margin: 50px 50px;
+}
+.title img {
+  padding: 20px 20px;
+  margin-top: 20px;
+  height: 50px;
+}
+@media (min-width: 400px) {
+  .title {
+    font-size: 30px !important;
+    margin: 30px 30px;
+  }
+  .boxes {
+    width: 170px;
+  }
+  .board {
+    margin-left: 10px;
+  }
+  .reset {
+    margin-left: 100px;
+  }
+  .container h1 {
+    width: 500px;
+  }
 }
